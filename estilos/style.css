@@ -16,6 +16,7 @@ body{
     background: url(../imagens/fundo-madeira.jpg) no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    background-position: top center;
 }
 
 
@@ -35,3 +36,30 @@ section#telefone{
     transform: translate(-50%, -50%);
     background: url(../imagens/frame-iphone.png) no-repeat;
 }
+
+iframe#tela{
+    position: relative;
+    top: 80px;
+    left: 22px;
+    width: 269px;
+    height: 469px;
+}
+
+section#redes-socias{
+    text-align: right;
+}
+
+section#redes-socias img{
+    width: 50px;
+    margin: 10px;
+    border-radius: 100%;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.493);
+    box-sizing: border-box;
+}
+
+section#redes-socias img:hover{
+    width: 55px;
+    transition-duration: 0.3s;
+    border: 2px solid white;
+}
+
